@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRKF</title>
+    <title>TRKF Sheets API Demo</title>
 </head>
 <body>
-    
+
+    <div>
+        <h1>Google API Sheets</h1>
+        <form id="updateForm">
+            <label for="sheetId">Google Sheets ID</label>
+            <input type="text" id="sheetId" name="sheetId"><br><br>
+
+            <label for="range">Range</label>
+            <input type="text" id="range" name="range"><br><br>
+
+            <label for="valueInput">Value</label>
+            <input type="text" id="valueInput" name="valueInput"><br><br>
+
+            <button type="submit">Update</button>
+            
+        </form>
+    </div>
+
+    <div></div>
+
+    <!-- javascript -->
+    <!-- <script src="https://apis.google.com/js/api.js"></script> -->
+    <script src="./index.js"></script>
 </body>
 </html>
